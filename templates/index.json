@@ -47,15 +47,7 @@
             }
         },
         "upcoming_exibitions": {
-            "type": "upcoming-exibitions",
-            "blocks": {
-             },
-            "block_order": [
-               
-            ],
-            "settings": {
-               
-            }
+            "type": "upcoming-exibitions"
         },
         "featured_collection": {
             "type": "featured-collection",
