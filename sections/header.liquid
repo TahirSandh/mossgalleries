@@ -36,6 +36,7 @@
             <nav class="overlay-menu">
               <ul>
               {%- for link in section.settings.menu.links -%}
+                {{ link }}
                 <li ><a href="#">Home</a></li>
               {%- endfor-%}
               </ul>
