@@ -1,4 +1,7 @@
-{{ 'component-card.css' | asset_url | stylesheet_tag }}
+
+
+
+{% comment %} {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-rte.css' | asset_url | stylesheet_tag }}
 
@@ -138,7 +141,7 @@
       </div>
     {%- endif -%}
   </div>
-</div>
+</div> {% endcomment %}
 
 {% schema %}
 {
