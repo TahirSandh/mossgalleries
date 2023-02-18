@@ -21,7 +21,6 @@
                 }}
               </a>
             </div>
-               {{ section.settings.menu  }}
             <div class="d-flex justify-content-center align-items-center nav-side">
               <div class="header-actions">
                     <a><div class="button_container" id="toggle">
@@ -36,11 +35,9 @@
           <div class="overlay" id="overlay">
             <nav class="overlay-menu">
               <ul>
-              
+              {%- for link in section.settings.menu.links -%}
                 <li ><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact</a></li>
+              {%- endfor-%}
               </ul>
             </nav>
           </div>
