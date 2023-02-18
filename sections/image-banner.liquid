@@ -1,3 +1,23 @@
+
+<section class="banner">
+  <div class="slide-parallex">
+      <div class='slides'>
+          <div class="slide">   
+          </div> 
+          <div class="slide">   
+          </div> 
+          <div class="slide">   
+          </div>  
+      </div>
+  </div>
+      <div class="slide_arrow">
+          <span class="left"><i class="fa-solid fa-circle-arrow-left"></i></span>
+          <span class="right"><i class="fa-solid fa-circle-arrow-right"></i></i></span>
+      </div>
+</section>
+
+
+{% comment %} 
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 
 {%- if section.settings.image_height == 'adapt' and section.settings.image != blank -%}
@@ -139,7 +159,7 @@
       {%- endfor -%}
     </div>
   </div>
-</div>
+</div> {% endcomment %}
 
 {% schema %}
 {
