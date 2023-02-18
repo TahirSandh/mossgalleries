@@ -49,6 +49,9 @@
         "upcoming_exibitions": {
             "type": "upcoming-exibitions"
         },
+        "single_detail": {
+            "type": "single-detail"
+        },
         "featured_collection": {
             "type": "featured-collection",
             "settings": {
@@ -80,6 +83,7 @@
     "order": [
         "image_banner",
         "upcoming_exibitions",
+        "single_detail",
         "featured_collection"
     ]
 }
