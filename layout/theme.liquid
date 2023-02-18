@@ -28,19 +28,20 @@
     {% endif %}
 
     {% render 'meta-tags' %}
-
+ {% comment %} 
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'global.js' | asset_url }}" defer="defer"></script> 
+  {% endcomment %}
     {{ content_for_header }}
 
-    {%- liquid
+    {% comment %} {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
       assign body_font_italic = settings.type_body_font | font_modify: 'style', 'italic'
       assign body_font_bold_italic = body_font_bold | font_modify: 'style', 'italic'
-    %}
+    %} {% endcomment %}
 
-    {% style %}
+    {% comment %} {% style %}
       {{ settings.type_body_font | font_face: font_display: 'swap' }}
       {{ body_font_bold | font_face: font_display: 'swap' }}
       {{ body_font_italic | font_face: font_display: 'swap' }}
@@ -216,10 +217,10 @@
           font-size: 1.6rem;
         }
       }
-    {% endstyle %}
+    {% endstyle %} {% endcomment %}
 
-    {{ 'base.css' | asset_url | stylesheet_tag }}
-
+    {{ 'style.css' | asset_url | stylesheet_tag }}
+{% comment %} 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
@@ -235,17 +236,17 @@
     if (Shopify.designMode) {
       document.documentElement.classList.add('shopify-design-mode');
     }
-    </script>
+    </script> {% endcomment %}
   </head>
 
   <body class="gradient">
-    <a class="skip-to-content-link button visually-hidden" href="#MainContent">
+    {% comment %} <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
-    </a>
+    </a> {% endcomment %}
 
-    {%- if settings.cart_type == 'drawer' -%}
+    {% comment %} {%- if settings.cart_type == 'drawer' -%}
       {%- render 'cart-drawer' -%}
-    {%- endif -%}
+    {%- endif -%} {% endcomment %}
 
     {% sections 'header-group' %}
 
@@ -259,7 +260,7 @@
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
       <li id="a11y-new-window-message">{{ 'accessibility.link_messages.new_window' | t }}</li>
     </ul>
-
+    
     <script>
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
