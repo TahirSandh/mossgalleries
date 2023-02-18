@@ -3,7 +3,13 @@
         <div class="container">
             <div class="brand-logo ">
               <a class="navbar-brand logo-dark hide" href="#">
-                 <img src="{{ settings.logo }}" class="img-fluid" /> 
+                 {{ settings.logo | image_url: width: 500 | image_tag:
+                      class: 'image-fluid',
+                      widths: '50, 100, 150, 200, 250, 300, 400, 500',
+                      height: logo_height,
+                      width: settings.logo_width,
+                      alt: logo_alt
+                }}
               </a>
               <a class="navbar-brand logo-light hide" href="#">
                 <img src="{{ settings.logo }}" class="img-fluid" /> 
