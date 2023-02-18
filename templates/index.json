@@ -79,6 +79,7 @@
     },
     "order": [
         "image_banner",
+        "upcoming_exibitions",
         "featured_collection"
     ]
 }
