@@ -31,7 +31,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "FEATURED WORKS OF THE MONTH",
+        "title": "Featured products",
         "description": "",
         "collection": "all"
       }
