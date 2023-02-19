@@ -324,6 +324,10 @@ nav .navbar-brand img{
 
 
 
+.feature-product .slide .slide-content h2 {
+  font-size: 34px;
+  text-align: center;
+}
 .feature-product .slide .slide-content h4 {
   font-size: 17px;
   text-align: center;
