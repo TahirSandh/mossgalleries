@@ -1,11 +1,10 @@
 
-https://mosgallerie.myshopify.com/?_ab=0&_bt=eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaEpJaDV0YjNObllXeHNaWEpwWlM1dGVYTm9iM0JwWm5rdVkyOXRCam9HUlZRPSIsImV4cCI6IjIwMjMtMDItMTlUMTU6MjE6NTIuMjE0WiIsInB1ciI6InBlcm1hbmVudF9wYXNzd29yZF9ieXBhc3MifX0%3D--b97d2e24e91984759609b32a30db4722cb2c067e&_fd=0&_sc=1&key=06177a2703bd48693110d98a6a537d1ff1e33f0b9d43ed167fd2be5548acb370&preview_theme_id=144067232062
+
 <section class="banner">
   <div class="slide-parallex">
-      <div class=''>
+      <div class='slides'>
         {%- for block in section.blocks -%}
-          <div class="">   
-          <h1>{{ block.settings.image  }}</h1>
+          <div class="slide" style="background:url({{ block.settings.image }})">   
           </div> 
         {%- endfor -%}}
       </div>
