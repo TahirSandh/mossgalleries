@@ -331,6 +331,18 @@ nav .navbar-brand img{
   text-align: center;
 }
 
+.feature-product .slide .card.card--standard.card--media {
+    border: none;
+}
+
+.feature-product .slide  .card__heading {
+    display: none;
+}
+
+
+
+
+
 /* End feature Content */
 
 
