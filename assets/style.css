@@ -338,10 +338,10 @@ nav .navbar-brand img{
 .feature-product .slide  .card__heading {
     display: none;
 }
-
-.feature-product .slide .card__media img{
-  position:none;
-
+.feature-product .slide .card__media img {
+    position: unset;
+    width: 75%;
+    align-content: center;
 }
 
 /* End feature Content */
