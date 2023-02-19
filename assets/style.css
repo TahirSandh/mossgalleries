@@ -339,8 +339,8 @@ nav .navbar-brand img{
     display: none;
 }
 
-.feature-product .slide .card__media{
-  position:block;
+.feature-product .slide .card__media img{
+  position:none;
 
 }
 
