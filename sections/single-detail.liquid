@@ -1,13 +1,13 @@
 <section>
     <div class="container about">
          <div class="row">
-            <div class="col-md-6 about-image">
+            <div class="col-md-6 about-image  wow fadeIn">
                 <img src="{{ section.settings.image | image_url }}" class="img-fluid"/>
             </div>
-            <div class="col-md-6 content d-flex flex-wrap align-content-center">
+            <div class="col-md-6 content d-flex flex-wrap align-content-center wow bounceInRight">
                 <h2>{{ section.settings.title | escape }}</h2>
                 {{ section.settings.description }}
-                <a class="btn btn-lg btn-dark">Inquire</a>
+                <a class="btn btn-lg btn-dark wow bounceIn">Inquire</a>
             </div>
          </div>   
 </section>
