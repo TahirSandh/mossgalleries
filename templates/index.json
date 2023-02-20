@@ -21,6 +21,9 @@
     "upcoming_exibitions": {
       "type": "upcoming-exibitions",
       "settings": {
+        "title": "Upcoming Exibitions Collection",
+        "description": "",
+        "collection": "frontpage"
       }
     },
     "single_detail": {
