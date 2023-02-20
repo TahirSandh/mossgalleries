@@ -7,21 +7,21 @@
                </div>
                <div class="footer-social-link">
                   <ul>
-                    {%- if section.settings.facebook -%}
+                    {%- if section.settings.facebook != "" -%}
                       <li>
                           <a href="{{ section.settings.facebook }}">
                               <img src="{{ "facebook.png" | asset_url }}" />
                           </a>
                       </li>
                     {%- endif -%}
-                    {%- if section.settings.insta  -%}
+                    {%- if section.settings.insta != "" -%}
                       <li>
                           <a href="{{ section.settings.insta }}">
                               <img src="{{ "instagram.png" | asset_url }}" />
                           </a>
                       </li>
                     {%- endif -%}
-                    {%- if section.settings.youtube -%}
+                    {%- if section.settings.youtube != "" -%}
                       <li>
                           <a href="{{ section.settings.youtube }}">
                               <img src="{{ "youtube.png" | asset_url }}" />
