@@ -107,8 +107,15 @@ $(function(){
     // $('.center').on('afterChange', function(event, slick, currentSlide){
     // console.log('afterChange', currentSlide);
     // });
-})
 
+   $(window).scroll(function(e){
+          parallax();
+      });
+})
+function parallax(){
+  var scrolled = $(window).scrollTop();
+  $('.banner .slide').css('background-position',"0 "+  (scrolled * 1) + 'px');
+}
 function mode(mode)
 {
       const sun = "https://www.uplooder.net/img/image/55/7aa9993fc291bc170abea048589896cf/sun.svg";
