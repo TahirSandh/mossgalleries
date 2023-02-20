@@ -1,22 +1,44 @@
 <section>
     <div class="container about">
-         <div class="row mt-5 mb-5">
-            <div class="col-md-12">
-                <div class="heading">
-                    <!-- <h2>CURRENT AND UPCOMING EXHIBITS</h2> -->
-                </div>
-            </div>  
-         </div>
          <div class="row">
             <div class="col-md-6 about-image">
-                <img src="images/portland_drexler_5.jpg" class="img-fluid"/>
+                <img src="{{ section.settings.image | image_url }}" class="img-fluid"/>
             </div>
             <div class="col-md-6 content d-flex flex-wrap align-content-center">
-                <h2>WORKS OF ABSTRACT EXPRESSIONIST ARTIST LYNNE MAPP DREXLER AT MOSS GALLERIES</h2>
-                <p class="date">1928 - 1999</p>
-                <p class="detail">Lynne Drexler artwork at Moss Galleries in Portland and Falmouth Maine. Lynne was an world renowned Abstract Expressionist artist, that has many works represented here at Moss Galleries.</p>
+                <h2>{{ section.settings.heading }}</h2>
+                {{ section.settings.description }}
                 <a class="btn btn-lg btn-dark">Inquire</a>
             </h2>
             </div>
          </div>   
 </section>
+
+
+{% schema %}
+{
+  "name": "About",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "About Side Image"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "default": "WORKS OF ABSTRACT EXPRESSIONIST ARTIST LYNNE MAPP DREXLER AT MOSS GALLERIES",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description"
+    }
+  ]
+}
+{% endschema %}
