@@ -281,12 +281,11 @@ nav .navbar-brand img{
   border: 0;
 }
 
-
 .product-grid .card img {
-  height: 400px;
+    position: unset !important;
+    height: 400px !important;
+    object-fit: cover;
 }
-
-
 
 /* end product Grid*/
 
