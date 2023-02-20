@@ -1,3 +1,4 @@
+new WOW().init();
 const thememode = localStorage.getItem("mode")
 $(function(){ 
     
