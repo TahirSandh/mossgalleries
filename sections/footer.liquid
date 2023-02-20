@@ -38,11 +38,9 @@
           <div class="col-md-2 links">
               <h4>Quick</h4>
               <ul>
-                  <li><a>Home</a></li>
-                  <li><a>Shop Now</a></li>
-                  <li><a>Reviews</a></li>
-                  <li><a>Customize Your Own</a></li>
-                  <li><a>FAQ’s</a></li>
+                  {%- for link in section.settings.menu.links -%}
+                      <li ><a href="{{ link.url }}">{{ link.title }}</a></li>
+                  {%- endfor-%}
               </ul>
           </div>
           <div class="col-md-2 links">
@@ -89,6 +87,12 @@
       "type" : "url",
       "id" : "youtube",
       "label" : "Youtube"
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "default": "main-menu",
+      "label": "t:sections.header.settings.menu.label"
     }
   ]
 }
