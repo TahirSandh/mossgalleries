@@ -272,8 +272,8 @@ nav .navbar-brand img{
 /* Product Grid */
 
 .product-grid .heading h2 {
-  font-size: 1.3rem;
-  font-weight: 300;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 
