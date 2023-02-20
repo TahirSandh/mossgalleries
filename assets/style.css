@@ -281,9 +281,10 @@ nav .navbar-brand img{
   border: 0;
 }
 
+
 .product-grid .card img {
     position: unset !important;
-    height: 400px !important;
+    height: 500px !important;
     object-fit: cover;
 }
 
@@ -341,7 +342,7 @@ nav .navbar-brand img{
 }
 .feature-product .slide .card__media img {
     position: unset;
-    height: 80%;
+    width: 80%;
     align-content: center;
 }
 
