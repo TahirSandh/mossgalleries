@@ -225,8 +225,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
    
     {{ 'base.css' | asset_url | stylesheet_tag }}
-    {{ 'style.css' | asset_url | stylesheet_tag }}
-{% comment %} 
+    {{ 'style.css' | asset_url | stylesheet_tag }} 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
@@ -242,7 +241,7 @@
     if (Shopify.designMode) {
       document.documentElement.classList.add('shopify-design-mode');
     }
-    </script> {% endcomment %}
+    </script>
   </head>
 
   <body class="gradient">
