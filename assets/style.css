@@ -340,9 +340,9 @@ nav .navbar-brand img{
     display: none;
 }
 .feature-product .slide .card__media img {
-    position: unset;
-    width: 80%;
-    align-content: center;
+    position: unset !important;
+    height: 400px !important;
+    object-fit: cover;
 }
 
 /* End feature Content */
