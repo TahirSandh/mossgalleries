@@ -14,7 +14,7 @@
                 
               {%- for product in section.settings.collection.products limit: 12 -%}
                       
-                    <div class="slide">
+                    <div class="slide p-2">
                          {% render 'card-product',
                           card_product: product,
                           media_aspect_ratio: section.settings.image_ratio,
