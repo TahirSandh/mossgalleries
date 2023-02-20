@@ -11,18 +11,15 @@
         <div class="row">
              {%- for product in section.settings.collection.products limit: 12 -%}
                 <div class="col-md-4 mb-5">
-                    <div class="card">
-                        <img src="images/painting.webp" class="  img-fluid" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title title">Benji Grignon: New Works
-                            BENJI GRIGNON: NEW WORKS</h5>
-                          <h6 class="card-subtitle date mb-2 text-muted ">
-                            To purchase, visit www.charliehewittnft.com
-                          </h6>
-                          <p class="card-text location">February 17 - March 25, 2023</p>
-                          <p class="card-text location">Falmouth, Maine </p>
-                        </div>
-                      </div>
+                     {% render 'card-product',
+                          card_product: product,
+                          media_aspect_ratio: section.settings.image_ratio,
+                          show_secondary_image: section.settings.show_secondary_image,
+                          show_vendor: section.settings.show_vendor,
+                          show_rating: section.settings.show_rating,
+                          show_quick_add: section.settings.enable_quick_add,
+                          section_id: section.id
+                      %}
                 </div>
            {%- endfor -%}  
            
