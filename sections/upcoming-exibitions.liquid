@@ -3,67 +3,29 @@
          <div class="row mt-5 mb-5">
             <div class="col-md-12">
                 <div class="heading">
-                    <h2>CURRENT AND UPCOMING EXHIBITS</h2>
+                    <h2>{{ section.settings.title }}</h2>
+                    <p>{{ section.settings.description }}</p>
                 </div>
             </div>  
          </div>   
         <div class="row">
-            <div class="col-md-4 mb-5">
-                <div class="card">
-                    <img src="images/painting.webp" class="  img-fluid" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title title">Benji Grignon: New Works
-                        BENJI GRIGNON: NEW WORKS</h5>
-                      <h6 class="card-subtitle date mb-2 text-muted ">
-                        To purchase, visit www.charliehewittnft.com
-                      </h6>
-                      <p class="card-text location">February 17 - March 25, 2023</p>
-                      <p class="card-text location">Falmouth, Maine </p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md-4 mb-5">
-                <div class="card">
-                    <img src="images/painting1.webp" class="  img-fluid" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title title">Benji Grignon: New Works
-                        BENJI GRIGNON: NEW WORKS</h5>
-                      <h6 class="card-subtitle date mb-2 text-muted ">
-                        To purchase, visit www.charliehewittnft.com
-                      </h6>
-                      <p class="card-text location">February 17 - March 25, 2023</p>
-                      <p class="card-text location">Falmouth, Maine </p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md-4 mb-5">
-                <div class="card">
-                    <img src="images/painting.webp" class="  img-fluid" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title title">Benji Grignon: New Works
-                        BENJI GRIGNON: NEW WORKS</h5>
-                      <h6 class="card-subtitle date mb-2 text-muted ">
-                        To purchase, visit www.charliehewittnft.com
-                      </h6>
-                      <p class="card-text location">February 17 - March 25, 2023</p>
-                      <p class="card-text location">Falmouth, Maine </p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md-4 mb-5">
-                <div class="card">
-                    <img src="images/painting.webp" class="  img-fluid" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title title">Benji Grignon: New Works
-                        BENJI GRIGNON: NEW WORKS</h5>
-                      <h6 class="card-subtitle date mb-2 text-muted ">
-                        To purchase, visit www.charliehewittnft.com
-                      </h6>
-                      <p class="card-text location">February 17 - March 25, 2023</p>
-                      <p class="card-text location">Falmouth, Maine </p>
-                    </div>
-                  </div>
-            </div>
+             {%- for product in section.settings.collection.products limit: 12 -%}
+                <div class="col-md-4 mb-5">
+                    <div class="card">
+                        <img src="images/painting.webp" class="  img-fluid" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title title">Benji Grignon: New Works
+                            BENJI GRIGNON: NEW WORKS</h5>
+                          <h6 class="card-subtitle date mb-2 text-muted ">
+                            To purchase, visit www.charliehewittnft.com
+                          </h6>
+                          <p class="card-text location">February 17 - March 25, 2023</p>
+                          <p class="card-text location">Falmouth, Maine </p>
+                        </div>
+                      </div>
+                </div>
+           {%- endfor -%}  
+           
         </div>
     </div>
 </section>
