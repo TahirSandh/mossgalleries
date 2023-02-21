@@ -10,18 +10,10 @@
             "url": "",
             "image": "shopify:\/\/shop_images\/banner-image.webp"
           }
-        },
-        "df92c042-beef-47ff-b0cd-da2fad33dc02": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "url": ""
-          }
         }
       },
       "block_order": [
-        "template--17950425973054__9a0fc46d-27af-4bed-b0d2-57bacc081a55-167701397318acccf4-0",
-        "df92c042-beef-47ff-b0cd-da2fad33dc02"
+        "template--17950425973054__9a0fc46d-27af-4bed-b0d2-57bacc081a55-167701397318acccf4-0"
       ],
       "settings": {
       }
