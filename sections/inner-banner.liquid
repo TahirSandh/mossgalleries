@@ -1,7 +1,29 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "About",
+    "tag": "section",
+    "class": "section",
+    "disabled_on": {
+      "groups": ["header", "footer"]
+    },
+    "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "About Side Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "default": "WORKS OF ABSTRACT EXPRESSIONIST ARTIST LYNNE MAPP DREXLER AT MOSS GALLERIES",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description"
+        }
+    ]
   }
 {% endschema %}
 
