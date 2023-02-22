@@ -2,7 +2,7 @@
     <div class="container about">
           <div class="row">
               <div class="col-md-12">
-                  <h2>{{ section.settings.main_heading | escape }}</h2>
+                  <h2>{{ section.settings.main_heading | esca }}</h2>
               </div>
           </div>
           <div class="row">
@@ -21,7 +21,7 @@
 
 {% schema %}
 {
-  "name": "About",
+  "name": "text_with_content",
   "tag": "section",
   "class": "section",
   "disabled_on": {
