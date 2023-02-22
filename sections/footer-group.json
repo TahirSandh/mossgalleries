@@ -7,7 +7,8 @@
       "settings": {
         "fb": "https:\/\/www.facebook.com\/",
         "insta": "https:\/\/www.youtube.com\/",
-        "youtube": ""
+        "youtube": "",
+        "menu": "footer"
       }
     }
   },
