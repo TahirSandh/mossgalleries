@@ -1,5 +1,5 @@
 <section>
-    <div class="container-fluid p-0 inner_banner p-5" style="background:url('{{ section.settings.image | image_url }}');">
+    <div class="container-fluid p-0 inner_banner align-item-end justify-content-center p-5" style="background:url('{{ section.settings.image | image_url }}');">
           <div class="banner-content h-100"> 
               <h1>{{ section.settings.title | escape }}</h1>
           </div>
@@ -10,7 +10,6 @@
   .inner_banner {
       height: 600px !important;
   }
-  
 {% endstylesheet %}
 {% schema %}
   {
