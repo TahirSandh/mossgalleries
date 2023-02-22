@@ -282,11 +282,11 @@ nav .navbar-brand img{
 }
 
 
-/* .product-grid .card img {
+.product-grid .card img {
     position: unset !important;
     height: 400px !important;
     object-fit: cover;
-} */
+}
 
 /* end product Grid*/
 
@@ -341,9 +341,9 @@ nav .navbar-brand img{
     display: none;
 }
 .feature-product .slide .card__media img {
-/*     position: unset;
+    position: unset;
     width: 80%;
-    align-content: center; */
+    align-content: center;
 }
 
 /* End feature Content */
