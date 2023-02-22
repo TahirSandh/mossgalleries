@@ -169,16 +169,16 @@ nav .navbar-brand img{
 
 
 .overlay nav {
-  position: relative;
-  height: 70%;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 47px;
-  font-family: "Vollkorn", serif;
-  font-weight: 400;
-  text-align: center;
-  /* padding: 0 0 0 190px; */
-  z-index: 100;
+     position: relative;
+    height: 70%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 34px;
+    /* font-family: Vollkorn,serif; */
+    font-family: "Cinzel",Serif;
+    font-weight: 400;
+    text-align: center;
+    z-index: 100;
 }
 .overlay ul {
   list-style: none;
