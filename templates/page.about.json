@@ -4,12 +4,21 @@
       "type": "inner-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/banner-image.webp",
-        "title": "About Us",
-        "description": ""
+        "title": "About Us"
+      }
+    },
+    "a0d26958-13d6-47a5-8b5a-1680f2564e68": {
+      "type": "text-with-content",
+      "settings": {
+        "main_heading": "SINCE OUR OPENING OF MOSS GALLERIES IN FALMOUTH, MAINE, WE HAVE PURSUED ONE MISSION: TO RECOGNIZE MAINE’S ROLE IN AMERICAN ART. ",
+        "image": "shopify:\/\/shop_images\/portland_drexler_5.jpg",
+        "title": "MOSS GALLERIES' STORY",
+        "description": "<p>Opening in 2004, with the dream of being at the forefront of recognizing Maine’s role in American Art, Elizabeth Moss created Moss Galleries in Falmouth, Maine. Over the course of 17 years, Elizabeth and her team have established a gallery of national and international repute, recently being named one of the top 500 Galleries in North America by ArtInfo. The success of the gallery is based on the backbone of strong and trusting relationships between the artists, the Moss Gallery staff, and Elizabeth Moss herself. At Moss Galleries, we take pride in having a mutually beneficial relationship with our represented artists.  <\/p><p>We represent a plethora of artists who create in a vast range of artistic styles ranging from abstract to traditional seascapes. Elizabeth is in continuous pursuit of highly talented contemporary artists, representing more artists each year, and being open-minded to all forms of art, all while staying true to our mission at Moss Galleries. We enjoy helping people understand and connect to the art and the artists, while also connecting people to Maine’s natural beauty and rich history of inspiring artists. Maine is home to some of the best artists in the country, who sell their work nationally and internationally. Moss Galleries strives to highlight these artists and their role in the American art scene at large, as well as the importance Maine plays in each of their work. To Moss Galleries, to the represented artists, to the people who love their work, and to American Art, Maine plays an indispensable part.<\/p>"
       }
     }
   },
   "order": [
-    "inner_banner"
+    "inner_banner",
+    "a0d26958-13d6-47a5-8b5a-1680f2564e68"
   ]
 }
