@@ -6,6 +6,12 @@
     </div>
 </section>
 
+{% stylesheet %}
+  .inner_banner {
+      height: 600px !important;
+  }
+  
+{% endstylesheet %}
 {% schema %}
   {
     "name": "inner_banner",
@@ -35,12 +41,6 @@
   }
 {% endschema %}
 
-{% stylesheet %}
-  .inner_banner {
-      height: 600px !important;
-  }
-  
-{% endstylesheet %}
 
 {% javascript %}
 {% endjavascript %}
