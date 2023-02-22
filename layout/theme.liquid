@@ -235,6 +235,8 @@
     }
     </script>
   {% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}{% unless boostersnippet contains "Liquid error" %}{{ boostersnippet }}{% endunless %}
+
+  {% render 'qikify-apps' %}
 </head>
 
   <body class="gradient">
