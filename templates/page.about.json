@@ -3,6 +3,9 @@
     "inner_banner": {
       "type": "inner-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/banner-image.webp",
+        "title": "About Us",
+        "description": ""
       }
     }
   },
