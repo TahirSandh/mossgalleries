@@ -1,12 +1,54 @@
+<section>
+    <div class="container about">
+          <div class="row">
+              <div class="col-md-12">
+                  <h2>{{ section.settings.main_heading | escape }}</h2>
+              </div>
+          </div>
+          <div class="row">
+             <div class="col-md-6 content d-flex flex-wrap align-content-center wow bounceInRight">
+                <h2>{{ section.settings.title | escape }}</h2>
+                {{ section.settings.description }}
+                <a class="btn btn-lg btn-dark wow bounceIn">Inquire</a>
+            </div>
+            <div class="col-md-6 about-image  wow fadeIn">
+                <img src="{{ section.settings.image | image_url }}" class="img-fluid"/>
+            </div>
+          
+         </div>   
+</section>
+
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "About",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "main_heading",
+      "label": "Main Heading"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "About Side Image"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "default": "WORKS OF ABSTRACT EXPRESSIONIST ARTIST LYNNE MAPP DREXLER AT MOSS GALLERIES",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description"
+    }
+  ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
