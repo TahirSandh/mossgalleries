@@ -1,21 +1,10 @@
 {
   "sections": {
-    "9a0fc46d-27af-4bed-b0d2-57bacc081a55": {
-      "type": "image-banner",
-      "blocks": {
-        "template--17950425973054__9a0fc46d-27af-4bed-b0d2-57bacc081a55-167701397318acccf4-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Inner Banner",
-            "url": "",
-            "image": "shopify:\/\/shop_images\/banner-image.webp"
-          }
-        }
-      },
-      "block_order": [
-        "template--17950425973054__9a0fc46d-27af-4bed-b0d2-57bacc081a55-167701397318acccf4-0"
-      ],
+    "54892077-6c46-45ee-84eb-2651c8e21e58": {
+      "type": "inner-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/banner-image.webp",
+        "title": "Product Detail"
       }
     },
     "main": {
@@ -111,7 +100,7 @@
     }
   },
   "order": [
-    "9a0fc46d-27af-4bed-b0d2-57bacc081a55",
+    "54892077-6c46-45ee-84eb-2651c8e21e58",
     "main",
     "related-products"
   ]
