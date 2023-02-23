@@ -17,12 +17,12 @@
 {%- endstyle -%}
 
 {%- paginate blog.articles by 6 -%}
-  <div class="container main-blog page-width section-{{ section.id }}-padding">
+  <div class="container section-{{ section.id }}-padding">
     <h1 class="title--primary">{{ blog.title | escape }}</h1>
 
-    <div class="row blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
+    <div class="row  {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
       {%- for article in blog.articles -%}
-        <div class="col-md-4 blog-articles__article article">
+        <div class="col-md-4 ">
           {%- render 'article-card',
             article: article,
             media_height: section.settings.image_height,
