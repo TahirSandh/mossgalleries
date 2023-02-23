@@ -8,7 +8,7 @@
       }
     },
     "main": {
-      "type": "main-blog",
+      "type": "main-news-blogs",
       "settings": {
         "layout": "grid",
         "show_image": true,
