@@ -18,7 +18,7 @@
     "f3d1031e-c579-436a-8349-1266b8fdaf71": {
       "type": "featured-blog",
       "settings": {
-        "heading": "Blog posts",
+        "heading": "",
         "heading_size": "h2",
         "blog": "news",
         "post_limit": 4,
