@@ -17,6 +17,9 @@
     },
     "f3d1031e-c579-436a-8349-1266b8fdaf71": {
       "type": "featured-blog",
+      "custom_css": [
+        ".card__media .media img{height:400px !important;}"
+      ],
       "settings": {
         "heading": "",
         "heading_size": "h2",
