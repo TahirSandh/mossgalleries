@@ -1,5 +1,12 @@
 {
   "sections": {
+    "78d0dec7-fb15-49d8-81e5-df05d4374fc5": {
+      "type": "inner-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner-image.webp",
+        "title": "News"
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -9,6 +16,7 @@
     }
   },
   "order": [
+    "78d0dec7-fb15-49d8-81e5-df05d4374fc5",
     "main"
   ]
 }
