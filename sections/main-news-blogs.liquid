@@ -20,7 +20,7 @@
   <div class="container section-{{ section.id }}-padding">
     <h1 class="title--primary">{{ blog.title | escape }}</h1>
 
-    <div class="row  {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
+    <div class="row {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
       {%- for article in blog.articles -%}
         <div class="col-md-4 ">
           {%- render 'article-card',
