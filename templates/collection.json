@@ -1,28 +1,18 @@
 {
   "sections": {
-    "baa1a714-d2d8-4b17-b035-fd1394c32cee": {
-      "type": "image-banner",
-      "blocks": {
-        "template--17950424891710__baa1a714-d2d8-4b17-b035-fd1394c32cee-167701421889773838-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Inner banner",
-            "url": "",
-            "image": "shopify:\/\/shop_images\/banner-image.webp"
-          }
-        }
-      },
-      "block_order": [
-        "template--17950424891710__baa1a714-d2d8-4b17-b035-fd1394c32cee-167701421889773838-0"
-      ],
+    "a75e0b65-9881-4f41-8797-38bbc6bbe4ed": {
+      "type": "inner-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/banner-image.webp",
+        "title": "Shiop"
       }
     },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
-        "show_collection_image": false,
+        "show_collection_image": true,
         "color_scheme": "background-1"
       }
     },
@@ -46,7 +36,7 @@
     }
   },
   "order": [
-    "baa1a714-d2d8-4b17-b035-fd1394c32cee",
+    "a75e0b65-9881-4f41-8797-38bbc6bbe4ed",
     "banner",
     "product-grid"
   ]
