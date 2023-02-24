@@ -1,22 +1,28 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 
-<article class="container" itemscope itemtype="http://schema.org/BlogPosting">
+
+
+<!-- <article class="container" itemscope itemtype="http://schema.org/BlogPosting">
   {%- for block in section.blocks -%}
     {%- case block.type -%}
       {%- when '@app' -%}
         <div class="page-width page-width--narrow">
           {% render block %}
         </div>
+
+
+      
       {%- when 'featured_image' -%}
         {%- if article.image -%}
           <div class="container" {{ block.shopify_attributes }}>
+           
             <div
               class="article-template__hero-{{ block.settings.image_height }} media"
               itemprop="image"
               {% if block.settings.image_height == 'adapt' and article.image %}
                 style="padding-bottom: {{ 1 | divided_by: article.image.aspect_ratio | times: 100 }}%;"
               {% endif %}
-            >
+             >
               <img
                 srcset="
                   {% if article.image.width >= 350 %}{{ article.image | image_url: width: 350 }} 350w,{% endif %}
@@ -40,7 +46,7 @@
         {%- endif -%}
 
       {%- when 'title' -%}
-        <header class="page-width page-width--narrow" {{ block.shopify_attributes }}>
+        <header class="" {{ block.shopify_attributes }}>
           <h1 class="article-template__title" itemprop="headline">{{ article.title | escape }}</h1>
           {%- if block.settings.blog_show_date -%}
             <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">
@@ -69,6 +75,8 @@
           {% render 'share-button', block: block, share_link: share_url %}
         </div>
     {%- endcase -%}
+
+  
   {%- endfor -%}
 
   <div class="article-template__back element-margin-top center">
@@ -258,7 +266,7 @@
       </div>
     </div>
   {%- endif -%}
-</article>
+</article> -->
 
 <script type="application/ld+json">
   {
