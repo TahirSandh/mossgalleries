@@ -3,11 +3,31 @@
 <article class="container pt-5">
      <div class="row">
          <div class="col-md-6">
+          <header class="" {{ block.shopify_attributes }}>
+            <h1 class="article-template__title" itemprop="headline">{{ article.title | escape }}</h1>
+              <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">
+                {{- article.published_at | time_tag: format: 'date' -}}
+              </span>
+               <span class="caption-with-letter-spacing" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <span itemprop="name">{{ article.author }}</span>
+              </span>
+          </header>
+
+           <div
+            class="article-template__content page-width page-width--narrow rte"
+            itemprop="articleBody"
+            {{ block.shopify_attributes }}
+        >
+          {{ article.content }}
+        </div>
+        <div class="article-template__social-sharing page-width page-width--narrow" {{ block.shopify_attributes }}>
+          {% assign share_url = request.origin | append: article.url %}
+          {% render 'share-button', block: block, share_link: share_url %}
+        </div>
          </div>
          <div class="col-md-6">
            {%- if article.image -%}
             <div class="" {{ block.shopify_attributes }}>
-             
               <div
                 class=""
                 itemprop="image"
