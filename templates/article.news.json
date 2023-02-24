@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "main-article",
+      "type": "main-news-article",
       "blocks": {
         "featured_image": {
           "type": "featured_image",
