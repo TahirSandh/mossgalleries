@@ -1,6 +1,6 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 
-<article class="container">
+<article class="container pt-5">
      <div class="row">
          <div class="col-md-6">
          </div>
@@ -29,7 +29,7 @@
                   src="{{ article.image | image_url: width: 1100 }}"
                   loading="eager"
                   fetchpriority="high"
-                  class="img-fluid"
+                  class="img-fluid w-75"
                   width="{{ article.image.width }}"
                   height="{{ article.image.height }}"
                   alt="{{ article.image.alt | escape }}"
