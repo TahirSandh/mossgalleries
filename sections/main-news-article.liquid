@@ -16,10 +16,8 @@
            <div
             class="article-template__content page-width page-width--narrow rte"
             itemprop="articleBody"
-            {{ block.shopify_attributes }}
-        >
-          {{ article.content }}
-        </div>
+            {{ block.shopify_attributes }}z   {{ article.content }}
+           </div>
         <div class="article-template__social-sharing page-width page-width--narrow" {{ block.shopify_attributes }}>
           {% assign share_url = request.origin | append: article.url %}
           {% render 'share-button', block: block, share_link: share_url %}
