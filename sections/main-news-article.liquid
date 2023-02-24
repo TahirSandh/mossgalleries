@@ -60,8 +60,8 @@
         
         </div>
      </div>
-
-   {%- if blog.comments_enabled? -%}
+    <div class="row">
+  {%- if blog.comments_enabled? -%}
     <div class="article-template__comment-wrapper background-secondary">
       <div id="comments" class="page-width page-width--narrow">
         {%- if article.comments_count > 0 -%}
@@ -242,6 +242,8 @@
       </div>
     </div>
   {%- endif -%}
+  </div>
+ 
 </article>
 
 <!-- <article class="container" itemscope itemtype="http://schema.org/BlogPosting">
