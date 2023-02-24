@@ -9,7 +9,7 @@
             <div class="" {{ block.shopify_attributes }}>
              
               <div
-                class="media"
+                class=""
                 itemprop="image"
                 {% if block.settings.image_height == 'adapt' and article.image %}
                   style="padding-bottom: {{ 1 | divided_by: article.image.aspect_ratio | times: 100 }}%;"
@@ -29,6 +29,7 @@
                   src="{{ article.image | image_url: width: 1100 }}"
                   loading="eager"
                   fetchpriority="high"
+                  class="img-fluid"
                   width="{{ article.image.width }}"
                   height="{{ article.image.height }}"
                   alt="{{ article.image.alt | escape }}"
