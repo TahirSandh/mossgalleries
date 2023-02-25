@@ -3,8 +3,9 @@
 <article class="container pt-5">
      <div class="row">
          <div class="col-md-6">
-        {{ article.metafields.custom.exibation_work }}
-
+        {{  }}
+        {% assign my_metafield = article.metafields.article.metafields.custom.exibation_work%}
+        <p>The value of my metafield is: {{ my_metafield }}</p>
            
           <header class="" {{ block.shopify_attributes }}>
             <h1 class="article-template__title" itemprop="headline">{{ article.title | escape }}</h1>
