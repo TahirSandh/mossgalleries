@@ -3,10 +3,9 @@
 <article class="container pt-5">
      <div class="row">
          <div class="col-md-6">
-      
-           {% for metafield in article.metafields %}
-            <p>{{ metafield.key }}: {{ metafield.value }}</p>
-          {% endfor %}
+        {% assign my_metafield = article.metafields.custom.exibation_work %}
+        <p> {{ my_metafield }}</p>
+           
           <header class="" {{ block.shopify_attributes }}>
             <h1 class="article-template__title" itemprop="headline">{{ article.title | escape }}</h1>
               <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">
