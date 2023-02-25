@@ -1,8 +1,11 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
-{{ article.metafields }}
+
 <article class="container pt-5">
      <div class="row">
          <div class="col-md-6">
+        {{ article.metafields }}
+
+           
           <header class="" {{ block.shopify_attributes }}>
             <h1 class="article-template__title" itemprop="headline">{{ article.title | escape }}</h1>
               <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">
