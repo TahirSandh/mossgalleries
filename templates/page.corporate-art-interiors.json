@@ -44,11 +44,28 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "5b0c3711-7f75-4415-8544-5b3dfffd1259": {
+      "type": "slider-grid",
+      "blocks": {
+        "template--18038406283582__5b0c3711-7f75-4415-8544-5b3dfffd1259-16773829390ec58375-0": {
+          "type": "heading",
+          "settings": {
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18038406283582__5b0c3711-7f75-4415-8544-5b3dfffd1259-16773829390ec58375-0"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "5010e862-0e27-4a52-8e70-021d6c349b01",
     "main",
-    "735f8753-6150-4eaf-8b91-b082a8db7331"
+    "735f8753-6150-4eaf-8b91-b082a8db7331",
+    "5b0c3711-7f75-4415-8544-5b3dfffd1259"
   ]
 }
