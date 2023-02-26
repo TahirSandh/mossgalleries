@@ -1,14 +1,23 @@
 {
   "sections": {
+    "5010e862-0e27-4a52-8e70-021d6c349b01": {
+      "type": "inner-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner-image.webp",
+        "title": "CORPORATE ART INTERIORS"
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
-        "padding_top": 28,
+        "padding_top": 20,
         "padding_bottom": 28
       }
     }
   },
   "order": [
+    "5010e862-0e27-4a52-8e70-021d6c349b01",
     "main"
   ]
 }
