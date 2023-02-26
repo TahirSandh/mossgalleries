@@ -47,7 +47,7 @@ $(function(){
          banner.slick('slickPrev');
       } );
 
-      $('.right').click(function(e){
+   $('.right').click(function(e){
         //e.preventDefault(); 
         banner.slick('slickNext');
       } ); 
@@ -57,6 +57,20 @@ $(function(){
 
       const feature_slides = $(".feature_slides");
       feature_slides.slick({
+         // dots: true,
+         // vertical: true,
+         // verticalSwiping: true,
+         slidesToShow: 3,
+         slidesToScroll: 1,
+         arrows: true,
+         // prevArrow: '<button class="slick-arrow slide-arrow prev-arrow"><i class="fa-solid fa-chevron-left"></i></button>',
+         // nextArrow: '<button class="slick-arrow slide-arrow next-arrow"><i class="fa-solid fa-chevron-right"></i></button>',
+     
+       });
+    
+  
+  const slide_grid = $(".slider_grid");
+      slide_grid.slick({
          // dots: true,
          // vertical: true,
          // verticalSwiping: true,
