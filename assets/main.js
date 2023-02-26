@@ -77,6 +77,8 @@ $(function(){
          slidesToShow: 3,
          slidesToScroll: 1,
          arrows: true,
+          centerMode: true,
+          variableWidth: true
          // prevArrow: '<button class="slick-arrow slide-arrow prev-arrow"><i class="fa-solid fa-chevron-left"></i></button>',
          // nextArrow: '<button class="slick-arrow slide-arrow next-arrow"><i class="fa-solid fa-chevron-right"></i></button>',
      
