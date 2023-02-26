@@ -1,7 +1,7 @@
 <div class="container-fluid p-0">
     <div class="row">
           <div class="col-md-12">
-            <div class="slider_grid">
+            <div class="slider_grid" id="slider_grid">
               {%- for block in section.blocks -%}
                 <div class="slide">
                    <img src="{{ block.settings.image| image_url }}"  />
