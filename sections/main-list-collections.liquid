@@ -1,7 +1,7 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'section-collection-list.css' | asset_url | stylesheet_tag }}
 
-<div class="container">
+<div class="container pt-5">
   {%- liquid
     case section.settings.sort
       when 'products_high', 'products_low'
