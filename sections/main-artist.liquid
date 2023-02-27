@@ -17,7 +17,12 @@
           </div>
     </div>
 </section>
-
+<script>
+$(".artists .artist-name").mouseover(function(){
+      $("body").css("background-image", "url(" + $(this).attr("bg-src") + ")");
+})
+  
+</script>
 {% schema %}
 {
   "name": "Artists",
