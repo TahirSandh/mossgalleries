@@ -17,10 +17,42 @@
             "heading": "Abc 1",
             "url": ""
           }
+        },
+        "0b27c01b-d195-4e6a-920b-ba2265464626": {
+          "type": "Artist",
+          "settings": {
+            "heading": "",
+            "url": ""
+          }
+        },
+        "55f71fa0-1d6b-4e03-93bb-7387cba8ce17": {
+          "type": "Artist",
+          "settings": {
+            "heading": "",
+            "url": ""
+          }
+        },
+        "0a0b48db-29e8-49a3-afea-390b542dee7b": {
+          "type": "Artist",
+          "settings": {
+            "heading": "",
+            "url": ""
+          }
+        },
+        "cce23fef-ee65-41a4-b310-dce738f78a4e": {
+          "type": "Artist",
+          "settings": {
+            "heading": "",
+            "url": ""
+          }
         }
       },
       "block_order": [
-        "template--18053086904638__a6cfd69b-50c6-4dce-9908-ea8fabdf6696-1677507402276d8444-0"
+        "template--18053086904638__a6cfd69b-50c6-4dce-9908-ea8fabdf6696-1677507402276d8444-0",
+        "0b27c01b-d195-4e6a-920b-ba2265464626",
+        "55f71fa0-1d6b-4e03-93bb-7387cba8ce17",
+        "0a0b48db-29e8-49a3-afea-390b542dee7b",
+        "cce23fef-ee65-41a4-b310-dce738f78a4e"
       ],
       "settings": {
       }
