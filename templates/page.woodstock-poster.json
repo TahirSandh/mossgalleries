@@ -1,22 +1,21 @@
 {
   "sections": {
-    "63a01459-4cb6-4373-8cb3-1b3a4e0e23e3": {
-      "type": "inner-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/2016-09-20-leandra-neh-web-jeff-roberts-imaging-4.webp",
-        "title": "Woodstock Poster"
-      }
-    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1594d421-69d9-476c-9ceb-95c2e5767c9a": {
+      "type": "main-artist",
+      "settings": {
+      }
     }
   },
   "order": [
-    "63a01459-4cb6-4373-8cb3-1b3a4e0e23e3",
-    "main"
+    "main",
+    "1594d421-69d9-476c-9ceb-95c2e5767c9a"
   ]
 }
