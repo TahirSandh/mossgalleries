@@ -8,6 +8,12 @@
         "padding_bottom": 28
       }
     },
+    "58af684a-de65-4d45-8ddd-f5109d870ae1": {
+      "type": "inner-banner",
+      "settings": {
+        "title": ""
+      }
+    },
     "21a2dce7-16ba-4306-bb0b-ba7011ee6ace": {
       "type": "main-artist",
       "blocks": {
@@ -29,6 +35,7 @@
   },
   "order": [
     "main",
+    "58af684a-de65-4d45-8ddd-f5109d870ae1",
     "21a2dce7-16ba-4306-bb0b-ba7011ee6ace"
   ]
 }
