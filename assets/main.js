@@ -128,10 +128,9 @@ $(function(){
    $(window).scroll(function(e){
           parallax();
       });
-    $(".artists .artist-name").on("mouseover",function(){
-        $("body").css(["background-image", "url(" + $(this).attr("bg-src") + ")"]);
-    })
-    $(".artists .artist-name").trigger("mouseover");
+   $(".artists .artist-name").mouseover(function(){
+        $("body").css("background-image", "url(" + $(this).attr("bg-src") + ")");
+   })
 })
 function parallax(){
   var scrolled = $(window).scrollTop();
