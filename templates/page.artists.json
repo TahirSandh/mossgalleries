@@ -16,21 +16,12 @@
           "settings": {
             "heading": "abc1",
             "url": "",
-            "image": "shopify:\/\/shop_images\/2016-09-20-leandra-neh-web-jeff-roberts-imaging-4.webp"
-          }
-        },
-        "0b27c01b-d195-4e6a-920b-ba2265464626": {
-          "type": "Artist",
-          "settings": {
-            "heading": "avc2",
-            "url": "",
-            "image": "shopify:\/\/shop_images\/banner-image.webp"
+            "image": "shopify:\/\/shop_images\/p3.webp"
           }
         }
       },
       "block_order": [
-        "template--18053086904638__a6cfd69b-50c6-4dce-9908-ea8fabdf6696-1677507402276d8444-0",
-        "0b27c01b-d195-4e6a-920b-ba2265464626"
+        "template--18053086904638__a6cfd69b-50c6-4dce-9908-ea8fabdf6696-1677507402276d8444-0"
       ],
       "custom_css": [
 
