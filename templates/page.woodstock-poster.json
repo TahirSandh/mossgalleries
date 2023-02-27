@@ -69,6 +69,9 @@
         "template--18051934290238__d72da034-b3a6-4c5e-ac30-2a71bd622a46-167751332770d8faec-5",
         "template--18051934290238__d72da034-b3a6-4c5e-ac30-2a71bd622a46-167751332770d8faec-6"
       ],
+      "custom_css": [
+        "a.link.product__view-details.animate-arrow {font-size: 18px;}"
+      ],
       "settings": {
         "product": "hello-world",
         "color_scheme": "background-1",
