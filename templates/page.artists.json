@@ -8,16 +8,27 @@
         "padding_bottom": 28
       }
     },
-    "68ebd406-953a-426b-9e8b-37f68e584817": {
-      "type": "inner-banner",
+    "21a2dce7-16ba-4306-bb0b-ba7011ee6ace": {
+      "type": "main-artist",
+      "blocks": {
+        "template--18053086904638__21a2dce7-16ba-4306-bb0b-ba7011ee6ace-1677514448d019d92e-0": {
+          "type": "Artist",
+          "settings": {
+            "heading": "ABC 1",
+            "url": "",
+            "image": "shopify:\/\/shop_images\/billy-gerard-frank-2nd-eulogy-mind-the-gap-memory-of-love-and-ruins-2019.webp"
+          }
+        }
+      },
+      "block_order": [
+        "template--18053086904638__21a2dce7-16ba-4306-bb0b-ba7011ee6ace-1677514448d019d92e-0"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/billy-gerard-frank-2nd-eulogy-mind-the-gap-memory-of-love-and-ruins-2019.webp",
-        "title": "WOODSTOCK POSTER"
       }
     }
   },
   "order": [
     "main",
-    "68ebd406-953a-426b-9e8b-37f68e584817"
+    "21a2dce7-16ba-4306-bb0b-ba7011ee6ace"
   ]
 }
