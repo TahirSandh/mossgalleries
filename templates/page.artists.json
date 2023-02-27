@@ -38,6 +38,9 @@
         "template--18053086904638__a6cfd69b-50c6-4dce-9908-ea8fabdf6696-1677507402276d8444-0",
         "0b27c01b-d195-4e6a-920b-ba2265464626"
       ],
+      "custom_css": [
+        "body{background-position:center; background-size:cover; background-repeat:no-repeat;}"
+      ],
       "settings": {
       }
     }
