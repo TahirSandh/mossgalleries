@@ -128,6 +128,9 @@ $(function(){
    $(window).scroll(function(e){
           parallax();
       });
+   $(".artists .artist-name").mouseover(function(){
+        $("body").css("background-image", "url(" + $(this).attr("bg-src") + ")");
+   })
 })
 function parallax(){
   var scrolled = $(window).scrollTop();
