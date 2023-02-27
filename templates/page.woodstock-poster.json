@@ -7,15 +7,9 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "1594d421-69d9-476c-9ceb-95c2e5767c9a": {
-      "type": "main-artist",
-      "settings": {
-      }
     }
   },
   "order": [
-    "main",
-    "1594d421-69d9-476c-9ceb-95c2e5767c9a"
+    "main"
   ]
 }
