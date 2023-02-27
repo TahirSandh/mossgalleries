@@ -39,7 +39,7 @@
         "0b27c01b-d195-4e6a-920b-ba2265464626"
       ],
       "custom_css": [
-        "body{background-position:center; background-size:cover; background-repeat:no-repeat;}"
+        "body {background-position: center center !important; background-size: cover !important; background-repeat: no-repeat !important;}"
       ],
       "settings": {
       }
