@@ -7,7 +7,7 @@
             <div class="col-md-6 content d-flex flex-wrap align-content-center wow bounceInRight">
                 <h2>{{ section.settings.title | escape }}</h2>
                 {{ section.settings.description }}
-                <a class="btn btn-lg btn-dark wow bounceIn">Inquire</a>
+                <a href="{{ section.settings.button_url }} " class="btn btn-lg btn-dark wow bounceIn">{{ section.settings.button_text }}</a>
             </div>
          </div>   
 </section>
@@ -37,6 +37,17 @@
       "type": "richtext",
       "id": "description",
       "label": "Description"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default" : "Inquire"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "button Url"
     }
   ]
 }
