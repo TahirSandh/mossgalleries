@@ -131,7 +131,7 @@ $(function(){
    $(".artists .artist-name").mouseover(function(){
         $("body").css("background-image", "url(" + $(this).attr("bg-src") + ")");
    })
-   $(".artists .artist-name")[0].trigger("mouseover")
+   $(".artists .artist-name")[0].trigger("click")
 
 })
 function parallax(){
