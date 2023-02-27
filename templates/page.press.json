@@ -15,10 +15,18 @@
         "padding_bottom": 28
       }
     },
+    "38289a53-5c0c-49e7-89a6-f6d3a14403ed": {
+      "type": "text-with-content",
+      "settings": {
+        "main_heading": "",
+        "title": "Billy Gerard Frank’s “Eulogies” on View This Summer  at the New Moss Galleries in Portland, Maine",
+        "description": "<p><br\/>June 14, 2022<br\/>                                    <br\/>(Portland, Maine) Billy Gerard Frank, filmmaker and multi-media artist, addresses issues of migration, race, and global politics as they relate...<br\/>                         <\/p>"
+      }
+    },
     "f3d1031e-c579-436a-8349-1266b8fdaf71": {
       "type": "featured-blog",
       "custom_css": [
-        ".card__media .media img{height:400px !important;}"
+        ".card__media .media img {height: 400px !important;}"
       ],
       "settings": {
         "heading": "",
@@ -39,6 +47,7 @@
   "order": [
     "78d0dec7-fb15-49d8-81e5-df05d4374fc5",
     "main",
+    "38289a53-5c0c-49e7-89a6-f6d3a14403ed",
     "f3d1031e-c579-436a-8349-1266b8fdaf71"
   ]
 }
