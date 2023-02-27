@@ -130,6 +130,7 @@ $(function(){
    });
    $(".artists .artist-name").mouseover(function(){
         $(".gradient").css("background-image", "url(" + $(this).attr("bg-src") + ")");
+        
    })
   
 })
