@@ -129,7 +129,7 @@ $(function(){
           parallax();
    });
    $(".artists .artist-name").mouseover(function(){
-        $("body").css("background-image", "url(" + $(this).attr("bg-src") + ")");
+        $(".gradient").css("background-image", "url(" + $(this).attr("bg-src") + ")");
    })
   
 })
