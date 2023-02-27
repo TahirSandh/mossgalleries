@@ -2,13 +2,32 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "a6cfd69b-50c6-4dce-9908-ea8fabdf6696": {
+      "type": "main-artist",
+      "blocks": {
+        "template--18053086904638__a6cfd69b-50c6-4dce-9908-ea8fabdf6696-1677507402276d8444-0": {
+          "type": "Artist",
+          "settings": {
+            "heading": "Abc 1",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18053086904638__a6cfd69b-50c6-4dce-9908-ea8fabdf6696-1677507402276d8444-0"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "a6cfd69b-50c6-4dce-9908-ea8fabdf6696"
   ]
 }
