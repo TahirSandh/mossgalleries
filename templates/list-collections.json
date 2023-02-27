@@ -1,1 +1,25 @@
-{"sections":{"main":{"type":"main-list-collections","settings":{"title":"Collections","sort":"alphabetical","image_ratio":"square","columns_desktop":3,"columns_mobile":"2"}}},"order":["main"]}
+{
+  "sections": {
+    "625d87d4-199a-4e89-86e5-25bb45b5ecef": {
+      "type": "inner-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/billy-gerard-frank-2nd-eulogy-mind-the-gap-memory-of-love-and-ruins-2019.webp",
+        "title": "Collection"
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "settings": {
+        "title": "Collections",
+        "sort": "alphabetical",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "columns_mobile": "1"
+      }
+    }
+  },
+  "order": [
+    "625d87d4-199a-4e89-86e5-25bb45b5ecef",
+    "main"
+  ]
+}
