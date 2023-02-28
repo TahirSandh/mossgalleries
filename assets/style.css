@@ -285,8 +285,8 @@ nav .navbar-brand img{
 
 
 .exibition-grid .card img {
-    position: unset;
-    width: 80%;
+    position: unset !important;
+    width: 80% !important;
     align-content: center;
 }
 
