@@ -285,9 +285,9 @@ nav .navbar-brand img{
 
 
 .exibition-grid .card img {
-    position: unset !important;
-    height: 400px !important;
-    object-fit: cover;
+    position: unset;
+    width: 80%;
+    align-content: center;
 }
 
 /* end product Grid*/
