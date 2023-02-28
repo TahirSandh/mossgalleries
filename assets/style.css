@@ -270,8 +270,8 @@ nav .navbar-brand img{
 /* Banner Section End  */
 
 /* Product Grid */
-.exibition-grid .ratio {
-    display: block;
+.exibition-grid .card__media {
+    background: #fff;
 }
 .exibition-grid .heading h2 {
     font-size: 24px;
