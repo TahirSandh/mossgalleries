@@ -345,7 +345,9 @@ nav .navbar-brand img{
     width: 80%;
     align-content: center;
 }
-
+.feature-product .card__media {
+    background: #fff
+}
 /* End feature Content */
 
 
