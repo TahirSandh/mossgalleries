@@ -270,23 +270,21 @@ nav .navbar-brand img{
 /* Banner Section End  */
 
 /* Product Grid */
-
+.exibition-grid .ratio {
+    display: block;
+}
 .exibition-grid .heading h2 {
     font-size: 24px;
     font-weight: 500;
 }
-
-
 .exibition-grid .card {
   border: 0;
 }
 
-
+/* 
 .exibition-grid .card img {
-    position: unset !important;
-    height: 400px !important;
     object-fit: cover;
-}
+} */
 
 /* end product Grid*/
 
